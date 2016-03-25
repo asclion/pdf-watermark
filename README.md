@@ -1,4 +1,4 @@
-# pdf_watermark
+# pdf-watermark
 
 ## Description
 
@@ -10,11 +10,15 @@ Add a watermark to a PDF document.
 
 ## How to run?
 
-$ gem install bundle  
-$ bundle install  
-$ ruby pdf_watermark.rb &lt;input-file&gt; &lt;output-file&gt; &lt;watermark-text&gt;
+```bash
+gem install bundle  
+bundle install  
+ruby pdf_watermark.rb &lt;input-file&gt; &lt;output-file&gt; &lt;watermark-text&gt;
+```
 
 ## How to convert this ruby script as Windows executable?
 
-$ gem install ocra  
-$ ocra pdf_watermark.rb
+```bash
+gem install ocra  
+ocra pdf_watermark.rb
+```
